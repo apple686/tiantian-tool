@@ -1,4 +1,4 @@
-import { add, multiply } from "../index";
+import { add, multiply,decrease } from "../index";
 
 describe("add fn test", () => {
   test("add 1+3 = 4", () => {
@@ -16,5 +16,15 @@ describe("multiply", () => {
   });
   test("multiply -2*2=-4", () => {
     expect(multiply(-2, 2)).toBe(-4);
+  });
+});
+
+
+describe("decrease", () => {
+  test("decrease 2-2=0", () => {
+    expect(decrease(2, 2)).toBe(0);
+  });
+  test("decrease -2-2=-4", () => {
+    expect(decrease(-2, 2)).toBe(-4);
   });
 });
