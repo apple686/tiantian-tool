@@ -13,5 +13,5 @@
     "resolveJsonModule": true // 支持导入JSON文件
   },
   "include": ["src/**/*"], // 要编译的文件
-  "exclude": ["node_modules", "test", "dist"] // 排除的文件
+  "exclude": ["node_modules", "test", "dist", ".github"] // 排除的文件
 }
