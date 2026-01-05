@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2020", // 编译目标
+    "module": "ESNext", // 模块系统
+    "moduleResolution": "Node", // 模块解析方式
+    "declaration": true, // 生成类型声明文件
+    "declarationDir": "./dist/types", // 类型声明输出目录
+    "outDir": "./dist/lib", // 编译输出目录
+    "strict": true, // 严格模式
+    "esModuleInterop": true, // 兼容CommonJS模块
+    "skipLibCheck": true, // 跳过库类型检查
+    "forceConsistentCasingInFileNames": true, // 强制文件名大小写一致
+    "resolveJsonModule": true // 支持导入JSON文件
+  },
+  "include": ["src/**/*"], // 要编译的文件
+  "exclude": ["node_modules", "test", "dist"] // 排除的文件
+}
