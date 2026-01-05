@@ -15,5 +15,7 @@ export function add(a: number, b: number): number {
  * @returns 两数之积
  */
 export function multiply(a: number, b: number): number {
+  
   return a * b;
+
 }
