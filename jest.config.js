@@ -4,4 +4,5 @@ export default {
   testMatch: ["**/test/**/*.test.ts"],
   collectCoverage: true, // 生成测试覆盖率
   coverageDirectory: "coverage",
+  
 };
